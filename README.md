@@ -14,4 +14,4 @@
 
 ## Preview
 
-[![Layout]()](https://zeusui.vercel.app/)
+[![Layout](https://github.com/ManucherKM/zeusui/blob/main/preview/Landing.png?raw=true)](https://zeusui.vercel.app/)
