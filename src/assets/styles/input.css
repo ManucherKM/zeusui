@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Для расширения классов */
+@layer components {
+	.container {
+		max-width: 1300px;
+	}
+
+	.nav-link {
+		@apply text-base text-black font-medium opacity-50 cursor-pointer font-space_grotesk hover:opacity-100;
+	}
+
+	.btn {
+		@apply bg-accent text-white rounded-2xl py-4 px-5 font-syne font-bold tracking-wider text-base sm:py-2;
+	}
+
+	.title {
+		@apply text-black font-syne font-bold cursor-default text-[48px] leading-[64px] md:text-[40px] md:leading-[56px] sm:text-[36px] sm:leading-[48px];
+	}
+
+	.subtitle {
+		@apply text-base text-accent font-space_grotesk font-normal leading-6 cursor-default sm:font-light sm:text-[14px] sm:leading-5;
+	}
+
+	.flex-center {
+		@apply flex justify-center items-center;
+	}
+
+	.flex-between {
+		@apply flex justify-between items-center;
+	}
+}
+
+/**************************/
+/**************************/
+/********* Шрифты *********/
+/**************************/
+/**************************/
+
+/* Space Grotesk */
+@font-face {
+	font-family: 'Space Grotesk';
+	font-weight: 300;
+	font-style: normal;
+	src: url('../fonts/SpaceGrotesk/Light.ttf');
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../fonts/SpaceGrotesk/Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-weight: 500;
+	font-style: normal;
+	src: url('../fonts/SpaceGrotesk/Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-weight: 600;
+	font-style: normal;
+	src: url('../fonts/SpaceGrotesk/SemiBold.ttf');
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-weight: 700;
+	font-style: normal;
+	src: url('../fonts/SpaceGrotesk/Bold.ttf');
+}
+
+/* Syne */
+@font-face {
+	font-family: 'Syne';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../fonts/Syne/Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Syne';
+	font-weight: 500;
+	font-style: normal;
+	src: url('../fonts/Syne/Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Syne';
+	font-weight: 600;
+	font-style: normal;
+	src: url('../fonts/Syne/SemiBold.ttf');
+}
+
+@font-face {
+	font-family: 'Syne';
+	font-weight: 700;
+	font-style: normal;
+	src: url('../fonts/Syne/Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Syne';
+	font-weight: 800;
+	font-style: normal;
+	src: url('../fonts/Syne/ExtraBold.ttf');
+}

@@ -1,0 +1,21 @@
+{
+	"name": "zeusui",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx tailwindcss -i ./src/assets/styles/input.css -o ./src/assets/styles/output.css --watch",
+		"build": "npx tailwindcss -i ./src/assets/styles/input.css -o ./src/assets/styles/output.css && vite build",
+		"preview": "vite preview",
+		"prettier:format": "npx prettier --write ./src",
+		"prettier:check": "npx prettier --check ./src"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "2.8.4",
+		"tailwindcss": "^3.2.7",
+		"vite": "^4.1.4"
+	}
+}
